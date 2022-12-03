@@ -1,31 +1,32 @@
-<<<<<<< HEAD
-# Myproject
+THIS IS AN INDEPENDENT FULL-STACK WEB PROJECT [MEAN STACK] DONE BY RAHUL VARANASI. 
+
+THIS UNIQUE WEB PAGE WILL BE HELPFUL FOR USERS IN DAILY LIFE BY PROVIDING ALL THE PRIMARY ACCESSORIES THAT ARE USEFUL FOR AN INDIVIDUAL WHILE WORKING OR STUDYING. THIS PROJECT PROVIDES ALL THE ACCESSORIES LIKE A CALCULATOR, TO-DO LIST, CLOCK, BOOKMARKS, AND A FILE TRANSFER FEATURE TO TRANSFER FILES BETWEEN LOGGED-IN DEVICES. THE PROCESS OF LOGGING IN AND TRANSFERRING FILES VIA WHATSAPP, EMAILS, ETC. IS ELIMINATED, SAVING VALUABLE TIME. 
+
+BY MAKING ALL THOSE NECESSARY ACCESSORIES AVAILABLE ON ONE SINGLE WEB PAGE, USERS CAN OPEN THIS PAGE ON A SECONDARY DISPLAY WHILE THEY ARE STUDYING OR WORKING.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
-## Development server
+Screenshots Of Web Pages:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+HOME PAGE: 
+![image](https://user-images.githubusercontent.com/119737615/205459973-17e1952e-f347-4a33-9937-87526b948886.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+LOGIN PAGE:
+![image](https://user-images.githubusercontent.com/119737615/205460023-571e70dd-d7b4-4d0d-898f-ed2c347944d9.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+SIGNUP PAGE:
+![image](https://user-images.githubusercontent.com/119737615/205460037-a5c19b62-0812-4a51-a912-4d4cf8e5ef5e.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ABOUT SECTION PAGE:
+![image](https://user-images.githubusercontent.com/119737615/205460190-32db7354-f4b3-45de-bc5c-41f1ddf3a27e.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ADMINS USER ACCOUNTS LISTING PAGE(WITH ACCOUNT PRIMARY KEY):
+![image](https://user-images.githubusercontent.com/119737615/205459927-7d6e4728-4c08-4f92-b32b-3b97ca08d7f0.png)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# mean_stack-independent_project-1
->>>>>>> d0815fe9d41b8abc798e2e3b7f2467b3e3158bcc
+ADMINS USER ACCOUNT CRUD OPETIONS PAGE:
+![image](https://user-images.githubusercontent.com/119737615/205459812-5777d5b1-1604-4702-bc07-97364ebcb129.png)

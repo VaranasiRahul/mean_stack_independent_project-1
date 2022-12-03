@@ -1,0 +1,28 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #4c00ff;
+  color: white;
+}
+
+.button {
+  background-color: #717171;
+  border: none;
+  color: white;
+  padding: 5px 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}

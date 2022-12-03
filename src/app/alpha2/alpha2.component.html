@@ -1,0 +1,23 @@
+<div class="h-100 w-full flex items-center justify-center bg-black font-sans">
+  <div class="bg-black rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
+      <div class="mb-4">
+          <h1 class="text-4xl font-black" style="color: rgb(255, 255, 255);transform: translate(0%,75%);">Todo List</h1>
+          <form [formGroup]="newTodoForm" class="flex mt-4" (ngSubmit)="addTask()">
+              <input style="background-color: rgb(0, 0, 0);color: white;" class="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
+                  placeholder="Add Todo" formControlName="todoItem">
+              <button style="background-color: #711cf9;color: white;" type="submit"
+                  class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
+                  
+                  >Add
+              </button>
+          </form>
+          
+      </div>
+      <div>
+          <div class="flex mb-8 items-center" *ngFor= "let value of taskList; index as i">
+              <p style="color: rgb(67, 67, 247); font-size:large; " class="w-full text-white p1" [ngClass]="{'line-through': value.completed}">{{value.name}}</p>
+                  <button type="button" class="btn btn-outline-danger btn-sm" (click)="removeTask(i)">delete</button><hr style="color: white;">
+          </div>
+      </div>
+  </div>
+</div>

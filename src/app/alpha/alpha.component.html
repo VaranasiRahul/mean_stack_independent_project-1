@@ -1,0 +1,96 @@
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="calculator" >
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="col-sm-8 form-control text-lg-right screen" id="screen" type="text">{{input}}</div><hr><hr><hr><hr><hr>
+        <div class="col-sm-8 form-control text-lg-right screen" style="color: green;" id="screen" type="text">{{result}}</div>
+        <table>
+            <tr>
+                <td>
+                    <button style="color: deepskyblue;" (click)="pressOperator('/')">/</button>
+                </td>
+                <td>
+                    <button class="equalsToBtn2" style="color: deepskyblue;transform: translate(-3%,0%);" (click)="clear()">
+                        <i style="color: white;" class="fas fa-backspace "></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button (click)="pressNum('7')">7</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('8')">8</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('9')">9</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" (click)="pressOperator('*')">x</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button (click)="pressNum('4')">4</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('5')">5</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('6')">6</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" (click)="pressOperator('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button (click)="pressNum('1')">1</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('2')">2</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('3')">3</button>
+                </td>
+                <td>
+                    <button style="color: deepskyblue;" (click)="pressOperator('+')">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button (click)="pressNum('0')">0</button>
+                </td>
+                <td>
+                    <button (click)="pressNum('.')">.</button>
+                </td>
+                <td>
+                    <button class="equalsToBtn" style="color: #ffffff;" (click)="allClear()">C</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+
